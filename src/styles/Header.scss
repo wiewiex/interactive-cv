@@ -7,24 +7,23 @@
 
 .textContainer {
     position: relative;
-    width: 100px;
+    width: 70px;
     h1, h2 {
         transform: rotate(-90deg);
-        text-align: center;
     }
 
     h1 {
         position: relative;
-        top: 150px;
-        left: -120px;
-        width: 300px;
+        top: 170px;
+        left: -180px;
+        width: 400px;
     }
 
     h2 {
         position: relative;
-        top: 150px;
-        left: -80px;
-        width: 300px;
+        top: 160px;
+        left: -140px;
+        width: 400px;
     }
 
     
@@ -52,5 +51,4 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    box-shadow: 2px 2px 8px white;
 }

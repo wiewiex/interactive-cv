@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&display=swap');
-$font-primary: 'Edu VIC WA NT Beginner', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap');
+$font-first: 'Major Mono Display', monospace;
+$font-second: 'Cutive Mono', monospace;
 
 html {
     box-sizing: border-box;
     font-size: 16px;
-    font-family: $font-primary;
+    font-family: $font-second;
   }
   
   *, *:before, *:after {
@@ -33,11 +34,13 @@ html {
   }
 
 h1 {
-  font-size: 38px;
+  font-size: 35px;
+  font-family: $font-first;
 }
 
 h2 {
   font-size: 20px;
+  font-family: $font-second;
 }
 
 p {

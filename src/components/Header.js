@@ -9,6 +9,7 @@ export default function Header() {
             <h1>Jacek Pietrzak</h1>
             <h2>Junior Frontend (React) Developer</h2>
         </div>
+        <img className='profilowe' alt='profilowe' src='profilowe.png'/>
         <div className='contactDetails'>
             <SingleContactLink content="wiewiex@gmail.com" icon="mail.png"/>
             <SingleContactLink content="788433833" icon="phone.png"/>
@@ -16,7 +17,6 @@ export default function Header() {
             <SingleContactLink content="linkedin.com/in/wiewiex" icon="linkedin.png"/>
             <SingleContactLink content="github.com/wiewiex" icon="github.png"/>
         </div>        
-        <img className='profilowe' alt='profilowe' src='profilowe.png'/>
     </header>
   )
 }

@@ -1,0 +1,55 @@
+.headerContainer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.textContainer {
+    position: relative;
+    width: 100px;
+    h1, h2 {
+        transform: rotate(-90deg);
+        text-align: center;
+    }
+
+    h1 {
+        position: relative;
+        top: 150px;
+        left: -120px;
+        width: 300px;
+    }
+
+    h2 {
+        position: relative;
+        top: 150px;
+        left: -80px;
+        width: 300px;
+    }
+
+    
+}
+
+.contactDetails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100px;
+    .singleContactLink {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        img {
+            padding-right: 10px;
+            width: 40px;
+            object-fit: contain;
+        }
+    }
+}
+
+
+.profilowe {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

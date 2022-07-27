@@ -7,7 +7,7 @@ export default function Header() {
     <header className='headerContainer'>
         <div className='textContainer'>
             <h1>Jacek Pietrzak</h1>
-            <h2>Junior Frontend / React Developer</h2>
+            <h2>Junior Frontend (React) Developer</h2>
         </div>
         <div className='contactDetails'>
             <SingleContactLink content="wiewiex@gmail.com" icon="mail.png"/>

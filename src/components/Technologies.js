@@ -52,11 +52,17 @@ export default function Technologies() {
           icon="technologies/node.png"
           level={1}
         />
+        <SingleTechnology
+          name="Docker"
+          icon="technologies/docker.webp"
+          level={1}
+        />
         <SingleTool name="rest" icon="technologies/rest.webp" />
         <SingleTool name="graph ql" icon="technologies/graphql.png" />
         <SingleTool name="WP API" icon="technologies/wordpress.png" />
         <SingleTool name="WC API" icon="technologies/woocommerce.png" />
         <SingleTool name="Firebase" icon="technologies/firebase.png" />
+        <SingleTool name="scrum" icon="technologies/scrum.png" />
       </div>
     </section>
   );

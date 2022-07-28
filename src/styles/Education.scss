@@ -1,0 +1,24 @@
+.educationContainer {
+    margin-top: 20px;
+
+    h3 {
+        margin-bottom: 20px;
+    }
+}
+
+.singleInstitution {
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 15px;
+    .dates {
+        width: 30%;
+    }
+
+    .name {
+        width: 35%;
+    }
+
+    .description {
+        width: 40%;        
+    }
+}

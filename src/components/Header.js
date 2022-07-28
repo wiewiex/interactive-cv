@@ -14,22 +14,27 @@ export default function Header() {
           <SingleContactLink
             content="wiewiex@gmail.com"
             icon="contact-details/mail.png"
+            url="mailto:wiewiex@gmail.com"
           />
           <SingleContactLink
             content="788433833"
             icon="contact-details/phone.png"
+            url="tel:+48788433833"
           />
           <SingleContactLink
             content="Kraków"
             icon="contact-details/address.png"
+            url="https://goo.gl/maps/VsDf61k5KqwDZfsb9"
           />
           <SingleContactLink
             content="linkedin.com/in/wiewiex"
             icon="contact-details/linkedin.png"
+            url="https://linkedin.com/in/wiewiex"
           />
           <SingleContactLink
             content="github.com/wiewiex"
             icon="contact-details/github.png"
+            url="https://github.com/wiewiex"
           />
         </section>
         <section className="aboutme">

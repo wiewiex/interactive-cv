@@ -22,6 +22,22 @@ export default function Technologies() {
           icon="technologies/redux.png"
           level={1}
         />
+        <SingleTechnology
+          name="Next.js"
+          icon="technologies/next.png"
+          level={3}
+        />
+        <SingleTechnology name="SASS" icon="technologies/sass.png" level={3} />
+        <SingleTechnology
+          name="TypeScript"
+          icon="technologies/ts.png"
+          level={1}
+        />
+        <SingleTechnology
+          name="HTML5"
+          icon="technologies/html5.png"
+          level={3}
+        />
       </div>
     </section>
   );

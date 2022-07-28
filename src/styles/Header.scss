@@ -5,7 +5,7 @@
     position: relative;
 }
 
-.textContainer {
+.titleContainer {
     position: relative;
     width: 70px;
     h1, h2 {
@@ -24,26 +24,7 @@
         top: 160px;
         left: -140px;
         width: 400px;
-    }
-
-    
-}
-
-.contactDetails {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 100px;
-    .singleContactLink {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        img {
-            padding-right: 10px;
-            width: 40px;
-            object-fit: contain;
-        }
-    }
+    }    
 }
 
 
@@ -52,3 +33,34 @@
     height: 200px;
     object-fit: cover;
 }
+
+.contactAndAboutContainer {
+    display: block;
+}
+
+.contactDetails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 70px;
+    .singleContactLink {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        img {
+            padding-right: 10px;
+            width: 30px;
+            object-fit: contain;
+        }
+    }
+}
+
+.aboutme {
+    padding: 15px 0 0 20px;
+    
+    p {
+        text-align: justify;
+        margin-top: 10px;
+    }
+}
+

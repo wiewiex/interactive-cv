@@ -1,0 +1,50 @@
+@import "../styles/colors.scss";
+
+.technologiesContainer {
+    margin: 20px 0 0 90px;
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+.technologiesList {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.singleTechnology {
+    display: flex;
+    border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+
+    img {
+        width: 30px;
+        object-fit: contain;
+    }
+
+    h4 {
+        padding: 10px;
+    }
+
+    .level {
+        display: flex;
+        border: 1px ridge white;
+        box-shadow: 2px 2px 8px rgb(91, 182, 235);
+
+        div {
+            height: 1px;
+            padding: 8px;
+            background-color: transparent;
+        }
+
+        .active {
+            background-color:white;
+        }
+    }
+}
+

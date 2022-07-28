@@ -2,6 +2,8 @@
 $font-first: 'Major Mono Display', monospace;
 $font-second: 'Cutive Mono', monospace;
 
+@import "../styles/colors.scss";
+
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -43,12 +45,24 @@ h2 {
   font-family: $font-second;
 }
 
-p {
+h3 {
+  font-family: $font-first;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: $font-first;
   font-size: 14px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 13px;
 }
 
 .appContainer {
-    background-color: #011627;
+    background-color: $color-darkBlue;
     width: 796px;
     height: 1122px;
     padding: 30px;

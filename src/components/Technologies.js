@@ -1,5 +1,6 @@
 import "../styles/Technologies.scss";
 import SingleTechnology from "./SingleTechnology";
+import SingleTool from "./SingleTool";
 
 export default function Technologies() {
   return (
@@ -15,29 +16,47 @@ export default function Technologies() {
         <SingleTechnology
           name="JavaScript"
           icon="technologies/js.png"
-          level={2}
-        />
-        <SingleTechnology
-          name="Redux"
-          icon="technologies/redux.png"
-          level={1}
-        />
-        <SingleTechnology
-          name="Next.js"
-          icon="technologies/next.png"
           level={3}
-        />
-        <SingleTechnology name="SASS" icon="technologies/sass.png" level={3} />
-        <SingleTechnology
-          name="TypeScript"
-          icon="technologies/ts.png"
-          level={1}
         />
         <SingleTechnology
           name="HTML5"
           icon="technologies/html5.png"
           level={3}
         />
+        <SingleTechnology name="CSS3" icon="technologies/css3.png" level={3} />
+        <SingleTechnology
+          name="Next.js"
+          icon="technologies/next.png"
+          level={3}
+        />
+        <SingleTechnology name="SASS" icon="technologies/sass.png" level={3} />
+        <SingleTechnology name="rwd" icon="technologies/rwd.png" level={3} />
+        <SingleTechnology name="GIT" icon="technologies/git.png" level={3} />
+        <SingleTechnology
+          name="Redux"
+          icon="technologies/redux.png"
+          level={2}
+        />
+        <SingleTechnology
+          name="TypeScript"
+          icon="technologies/ts.png"
+          level={1}
+        />
+        <SingleTechnology
+          name="Object programming"
+          icon="technologies/oop.png"
+          level={1}
+        />
+        <SingleTechnology
+          name="Node.js"
+          icon="technologies/node.png"
+          level={1}
+        />
+        <SingleTool name="rest" icon="technologies/rest.webp" />
+        <SingleTool name="graph ql" icon="technologies/graphql.png" />
+        <SingleTool name="WP API" icon="technologies/wordpress.png" />
+        <SingleTool name="WC API" icon="technologies/woocommerce.png" />
+        <SingleTool name="Firebase" icon="technologies/firebase.png" />
       </div>
     </section>
   );

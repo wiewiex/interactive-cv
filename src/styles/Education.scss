@@ -19,6 +19,37 @@
     }
 
     .description {
-        width: 40%;        
+        width: 40%;       
+    }
+}
+
+.codersLab {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    .dates {
+        width: 30%;
+    }
+
+    .name {
+        width: 35%;
+    }
+
+    .description {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .links {
+            margin-left: 5px;
+            display: flex;
+            align-items: center;
+    
+            img {
+                width: 22px;
+                margin: 1px;
+            }
+        }        
     }
 }

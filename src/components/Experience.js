@@ -6,7 +6,7 @@ export default function Experience() {
       <h3>Experience</h3>
       <div className="singleExperience">
         <div className="datesRoleLinks">
-          <p className="dates">April 2022 - present</p>
+          <p className="dates">Apr 2022 - present</p>
           <h5 className="role">Web developer at the Ukrainian Art Fundation</h5>
           <div className="links">
             <a href="https://uaworld.pl">
@@ -31,7 +31,7 @@ export default function Experience() {
       </div>
       <div className="singleExperience">
         <div className="datesRoleLinks">
-          <p className="dates">June 2020 - June 2021</p>
+          <p className="dates">Jun 2020 - Jun 2021</p>
           <h5 className="role">
             Founder, CEO, web-developer of naukamuzykionline.pl (not active)
           </h5>
@@ -67,11 +67,11 @@ export default function Experience() {
         <h5 className="saxophoneTeacher">Saxophone teacher</h5>
         <div className="datesRoleLinks">
           <p className="dates">Sep 2019 - Jun 2022</p>
-          <h5>State Music School of the 1st degree in Miluszowice</h5>
+          <h6>State Music School of the 1st degree in Miluszowice</h6>
         </div>
         <div className="datesRoleLinks">
           <p className="dates">Feb 2017 - Jun 2018</p>
-          <h5>State Music School of the 1st degree in Czasław</h5>
+          <h6>State Music School of the 1st degree in Czasław</h6>
         </div>
       </div>
       <div className="singleExperience">

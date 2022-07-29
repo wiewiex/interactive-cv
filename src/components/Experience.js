@@ -7,7 +7,7 @@ export default function Experience() {
       <div className="singleExperience">
         <div className="datesRoleLinks">
           <p className="dates">Apr 2022 - present</p>
-          <h5 className="role">Web developer at the Ukrainian Art Fundation</h5>
+          <h5 className="role">Web developer at Ukrainian Art Fundation</h5>
           <div className="links">
             <a href="https://uaworld.pl">
               <img src="experience/uaworld.png" alt="uaart logo" />
@@ -33,7 +33,7 @@ export default function Experience() {
         <div className="datesRoleLinks">
           <p className="dates">Jun 2020 - Jun 2021</p>
           <h5 className="role">
-            Founder, CEO, web-developer of naukamuzykionline.pl (not active)
+            Founder, CEO, web-developer at naukamuzykionline.pl (not active)
           </h5>
           <div className="links">
             <a href="https://jacekpietrzak.pl/nmo-preview">

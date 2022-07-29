@@ -1,0 +1,43 @@
+.experienceContainer {
+    position: relative;
+    top: -30px;  
+}
+
+.singleExperience {
+    margin-top: 10px;
+    .datesRoleLinks {
+        display: flex;
+        align-items: center;
+
+        .dates {
+            width: 29%;
+        }
+
+        .role {
+            width: 61%;
+
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 10%;
+    
+            img {
+                width: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .description {
+        margin-top: 5px;
+        text-align: justify;
+    }
+
+    .saxophoneTeacher {
+        margin-left: 214px;
+        margin-bottom: 5px;
+    }
+}

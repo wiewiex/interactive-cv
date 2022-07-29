@@ -6,7 +6,6 @@ export default function Technologies() {
   return (
     <section className="technologiesContainer">
       <h3>Technologies and tools</h3>
-      <p>So far, my programming experience focused on:</p>
       <div className="technologiesList">
         <SingleTechnology
           name="React"
@@ -42,11 +41,7 @@ export default function Technologies() {
           icon="technologies/ts.png"
           level={1}
         />
-        <SingleTechnology
-          name="Object programming"
-          icon="technologies/oop.png"
-          level={1}
-        />
+        <SingleTechnology name="OOP" icon="technologies/oop.png" level={1} />
         <SingleTechnology
           name="Node.js"
           icon="technologies/node.png"

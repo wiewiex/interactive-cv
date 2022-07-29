@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Cutive+Mono&family=Major+Mono+Display&display=swap');
 $font-first: 'Major Mono Display', monospace;
 $font-second: 'Cutive Mono', monospace;
+$font-third: 'Bungee Outline', cursive;
 
 @import "../styles/colors.scss";
 
@@ -17,6 +18,7 @@ html {
   body {
     display: flex;
     justify-content: center;
+    background-color: $color-darkBlue;
   }
   
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -85,5 +87,5 @@ p {
   padding: 7px 0;
   border-top: 1px groove white;
   position: relative;
-  top: -10px;
+  top: -7px;
 }

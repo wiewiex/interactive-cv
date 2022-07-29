@@ -8,7 +8,7 @@ export default function Education() {
       <div className="codersLab">
         <p className="dates">Nov 2021 - Jun 2022</p>
         <h5 className="name">Coders Lab</h5>
-        <p className="description">
+        <div className="description">
           JavaScript Developer
           <div className="links">
             <a href="https://portfolio-lab-project-wiewiex.vercel.app">
@@ -26,7 +26,7 @@ export default function Education() {
               <img src="experience/github.png" alt="github logo" />
             </a>
           </div>
-        </p>
+        </div>
       </div>
       <SingleInstitution
         dates="Oct 2013 - Jun 2018"

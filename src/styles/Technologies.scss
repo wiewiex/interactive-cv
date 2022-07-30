@@ -17,7 +17,7 @@
     align-items: center;
     padding: 7px 0;
     margin-right: 20px;
-    width: 105px;
+    width: 109px;
 
     img {
         width: 25px;
@@ -30,23 +30,30 @@
     .level {
         display: flex;
         border: 1px ridge white;
-        box-shadow: 2px 2px 8px rgb(91, 182, 235);
+        // box-shadow: 2px 2px 8px rgb(91, 182, 235);
         position: relative;
 
         h4 {
-            text-shadow: -1px 1px 0 white,
-                          1px 1px 0 white,
-                         1px -1px 0 white,
-                        -1px -1px 0 white;
+            // text-shadow: -1px 1px 0 white,
+            //               1px 1px 0 white,
+            //              1px -1px 0 white,
+            //             -1px -1px 0 white;
+            
+            background-color: $color-darkBlue;
+            color: white;
+            padding: 3px 1px;
+            top: 10%;
+            border-radius: 10%;
+
             position: absolute;
-            color: black;
+            // color: black;            
             left: 2px;
-            top: 25%;
+            // top: 25%;
         }
 
         div {
             height: 20px;
-            width: 25px;
+            width: 27px;
             background-color: transparent;
         }
 

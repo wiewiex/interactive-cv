@@ -65,7 +65,7 @@ export default function Experience() {
         <p className="description">
           I have 12 years of experience as a professional jazz musician. The
           skills and intuition I have acquired over the years of composing and
-          arranging music seem very helpful in the context of programming.{" "}
+          arranging music are very helpful in the context of programming.
         </p>
       </div>
       <div className="singleExperience">

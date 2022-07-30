@@ -1,5 +1,11 @@
+// @mixin mobile {
+//   @media screen and (max-width: 796px) {
+//     @content;
+//   }
+// }
+
 @mixin mobile {
-  @media screen and (max-width: 796px) {
+  @media screen and (max-width: 100px) {
     @content;
   }
 }

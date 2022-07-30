@@ -39,7 +39,7 @@ export default function Technologies() {
         <SingleTechnology
           name="TypeScript"
           icon="technologies/ts.png"
-          level={1}
+          level={2}
         />
         <SingleTechnology name="OOP" icon="technologies/oop.png" level={1} />
         <SingleTechnology

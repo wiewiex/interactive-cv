@@ -41,25 +41,25 @@
     .level {
         display: flex;
         border: 1px ridge white;
-        // box-shadow: 2px 2px 8px rgb(91, 182, 235);
+        box-shadow: 2px 2px 8px rgb(91, 182, 235);
         position: relative;
 
         h4 {
-            // text-shadow: -1px 1px 0 white,
-            //               1px 1px 0 white,
-            //              1px -1px 0 white,
-            //             -1px -1px 0 white;
+            text-shadow: -1px 1px 0 white,
+                          1px 1px 0 white,
+                         1px -1px 0 white,
+                        -1px -1px 0 white;
 
-            background-color: $color-darkBlue;
-            color: white;
-            padding: 3px 1px;
-            top: 10%;
-            border-radius: 10%;
+            // background-color: $color-darkBlue;
+            // color: white;
+            // padding: 3px 1px;
+            // top: 10%;
+            // border-radius: 10%;
 
             position: absolute;           
             left: 2px;
-            // top: 25%;
-            // color: black; 
+            top: 25%;
+            color: black; 
             @include mobile {
                 font-size: 9px;
             }

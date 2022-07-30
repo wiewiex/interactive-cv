@@ -1,13 +1,21 @@
 @import "../styles/colors.scss";
+@import "../styles/mixins.scss";
 
 .technologiesContainer {
     margin: 20px 0 0 90px;
+    @include mobile {
+        margin: 20px 0 0 0;
+
+    }
 }
 
 .technologiesList {
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
+    @include mobile {
+        justify-content: space-between;
+    }
 
 }
 

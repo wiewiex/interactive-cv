@@ -1,3 +1,5 @@
+@import "../styles/mixins.scss";
+
 .educationContainer {
     margin-top: 15px;
 
@@ -10,17 +12,30 @@
     box-sizing: border-box;
     display: flex;
     margin-bottom: 15px;
+    @include mobile {
+        flex-wrap: wrap;
+    }
     .dates {
         width: 30%;
+        @include mobile {
+            width: 50%;
+        }
     }
 
     .name {
         width: 35%;
+        @include mobile {
+            width: 50%;
+        }
     }
 
     .description {
         width: 40%;
-        text-align: justify;       
+        text-align: justify;
+        @include mobile {
+            width: 100%;
+            margin-top: 5px;
+        }      
     }
 }
 
@@ -29,12 +44,22 @@
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+    @include mobile {
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
     .dates {
         width: 30%;
+        @include mobile {
+            width: 50%;
+        }
     }
 
     .name {
         width: 35%;
+        @include mobile {
+            width: 50%;
+        }
     }
 
     .description {
@@ -43,15 +68,23 @@
         align-items: center;
         justify-content: space-between;
         font-size: 13px;
-        .links {
-            margin-left: 5px;
+        @include mobile {
+            width: 100%;
+            justify-content: space-between;
+        }
+        .linksContainer {
             display: flex;
-            align-items: center;
-    
-            img {
-                width: 22px;
-                margin: 1px;
-            }
-        }        
+            .links {
+                margin-left: 5px;
+                display: flex;
+                align-items: center;
+        
+                img {
+                    width: 25px;
+                    margin: 1px;
+                }
+            }        
+        }
+        
     }
 }

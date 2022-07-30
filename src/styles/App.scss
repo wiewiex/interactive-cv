@@ -3,6 +3,8 @@ $font-first: 'Major Mono Display', monospace;
 $font-second: 'Cutive Mono', monospace;
 $font-third: 'Bungee Outline', cursive;
 
+@import "../styles/mixins.scss";
+
 @import "../styles/colors.scss";
 
 html {
@@ -79,6 +81,10 @@ p {
     height: 1122px;
     padding: 20px 30px;
     box-sizing: border-box;
+    @include mobile {
+      width: 100%;
+      height: 100%;
+    }
 }
 
 .consent {
@@ -88,4 +94,8 @@ p {
   border-top: 1px groove white;
   position: relative;
   top: -20px;
+  @include mobile {
+    position: static;
+    margin-top: 20px;
+  }
 }

@@ -10,21 +10,23 @@ export default function Education() {
         <h5 className="name">Coders Lab</h5>
         <div className="description">
           JavaScript Developer
-          <div className="links">
-            <a href="https://portfolio-lab-project-wiewiex.vercel.app">
-              <img src="experience/vercel.png" alt="vercel logo" />
-            </a>
-            <a href="https://github.com/wiewiex/portfolio-lab-project">
-              <img src="experience/github.png" alt="github logo" />
-            </a>
-          </div>
-          <div className="links">
-            <a href="https://ciekawsze-zadania.vercel.app">
-              <img src="experience/vercel.png" alt="vercel logo" />
-            </a>
-            <a href="https://github.com/wiewiex/ciekawsze-zadania">
-              <img src="experience/github.png" alt="github logo" />
-            </a>
+          <div className="linksContainer">
+            <div className="links">
+              <a href="https://portfolio-lab-project-wiewiex.vercel.app">
+                <img src="experience/vercel.png" alt="vercel logo" />
+              </a>
+              <a href="https://github.com/wiewiex/portfolio-lab-project">
+                <img src="experience/github.png" alt="github logo" />
+              </a>
+            </div>
+            <div className="links">
+              <a href="https://ciekawsze-zadania.vercel.app">
+                <img src="experience/vercel.png" alt="vercel logo" />
+              </a>
+              <a href="https://github.com/wiewiex/ciekawsze-zadania">
+                <img src="experience/github.png" alt="github logo" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

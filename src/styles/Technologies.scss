@@ -26,6 +26,9 @@
     padding: 7px 0;
     margin-right: 20px;
     width: 109px;
+    @include mobile {
+        width: 90px;
+    }
 
     img {
         width: 25px;
@@ -57,12 +60,18 @@
             left: 2px;
             top: 25%;
             color: black; 
+            @include mobile {
+                font-size: 9px;
+            }
         }
 
         div {
             height: 20px;
             width: 27px;
             background-color: transparent;
+            @include mobile {
+                width: 24px;
+            }
         }
 
         .active {

@@ -1,6 +1,12 @@
 @import "../styles/mixins.scss";
+@import "../styles/animations.scss";
 
 .experienceContainer {
+    visibility: hidden;
+    animation: fadeInLeft 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+
     position: relative;
     top: -40px;
     @include mobile {

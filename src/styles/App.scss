@@ -4,8 +4,9 @@ $font-second: 'Cutive Mono', monospace;
 $font-third: 'Bungee Outline', cursive;
 
 @import "../styles/mixins.scss";
-
 @import "../styles/colors.scss";
+@import "../styles/animations.scss";
+
 
 html {
     box-sizing: border-box;
@@ -21,6 +22,7 @@ html {
     display: flex;
     justify-content: center;
     background-color: $color-darkBlue;
+    overflow-x: hidden;
   }
   
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -89,6 +91,11 @@ p {
 }
 
 .consent {
+  visibility: hidden;
+  animation: fadeInLeft 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+
   font-size: 10px;
   text-align: justify;
   padding: 7px 0;

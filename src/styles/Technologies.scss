@@ -1,8 +1,13 @@
 @import "../styles/colors.scss";
 @import "../styles/mixins.scss";
+@import "../styles/animations.scss";
 
 .technologiesContainer {
     margin: 20px 0 0 90px;
+    visibility: hidden;
+    animation: fadeInRight 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
     @include mobile {
         margin: 20px 0 0 0;
 

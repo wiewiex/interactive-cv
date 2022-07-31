@@ -1,10 +1,14 @@
 @import "../styles/mixins.scss";
+@import "../styles/animations.scss";
 
 .headerContainer {
     color: white;
     display: flex;
     justify-content: space-between;
     position: relative;
+    visibility: hidden;
+    animation: fadeInLeft 1.5s;
+    animation-fill-mode: forwards;
     @include mobile {
         flex-direction: column;
         justify-content: flex-start;

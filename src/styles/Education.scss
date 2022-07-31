@@ -1,6 +1,12 @@
 @import "../styles/mixins.scss";
+@import "../styles/animations.scss";
 
 .educationContainer {
+    visibility: hidden;
+    animation: fadeInRight 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
     margin-top: 15px;
 
     h3 {

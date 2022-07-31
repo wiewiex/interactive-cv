@@ -34,6 +34,11 @@
         }
 
         .links {
+            visibility: hidden;
+            animation: fadeIn 2s;
+            animation-delay: 4s;
+            animation-fill-mode: forwards;
+
             display: flex;
             align-items: center;
             justify-content: flex-end;

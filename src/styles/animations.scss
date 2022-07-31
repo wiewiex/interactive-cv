@@ -31,3 +31,18 @@
        opacity: 1;
     }
  }
+
+ @keyframes fadeIn {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    50% {
+        visibility: visible;
+        opacity: 0;
+    }
+    100% {
+       visibility: visible;
+       opacity: 1;
+    }
+ }

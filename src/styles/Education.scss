@@ -78,6 +78,10 @@
             justify-content: space-between;
         }
         .linksContainer {
+            visibility: hidden;
+            animation: fadeIn 2s;
+            animation-delay: 3s;
+            animation-fill-mode: forwards;
             display: flex;
             .links {
                 margin-left: 5px;

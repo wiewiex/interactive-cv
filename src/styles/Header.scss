@@ -72,15 +72,17 @@
 }
 
 .contactDetails {
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
+    animation-delay: 1s;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     height: 70px;
     @include mobile {
         visibility: hidden;
-        animation: fadeIn 3s;
+        animation: fadeIn 2s;
         animation-fill-mode: forwards;
+        animation-delay: 1s;
 
         height: 200px;
         flex-direction: column;

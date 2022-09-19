@@ -26,11 +26,15 @@ export default function Experience2() {
         <h5 className="saxophoneTeacher">Saxophone teacher</h5>
         <div className="datesRoleLinks">
           <p className="dates">Sep 2019 - Jun 2022</p>
-          <h6>State Music School of the 1st degree in Miluszowice</h6>
+          <h6 className="role">
+            State Music School of the 1st degree in Miluszowice
+          </h6>
         </div>
         <div className="datesRoleLinks">
           <p className="dates">Feb 2017 - Jun 2018</p>
-          <h6>State Music School of the 1st degree in Czasław</h6>
+          <h6 className="role">
+            State Music School of the 1st degree in Czasław
+          </h6>
         </div>
       </div>
       <div className="singleExperience">

@@ -7,10 +7,6 @@
   animation-fill-mode: forwards;
   animation-delay: 3s;
   position: relative;
-  @include mobile {
-    position: static;
-    margin-top: 20px;
-  }
 }
 
 .singleExperience {

@@ -3,16 +3,22 @@ import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Technologies from "./components/Technologies";
 import Consent from "./components/Consent";
+import Experience2 from "./components/Experience2";
 import "./styles/App.scss";
 
 function App() {
   return (
     <div className="appContainer">
-      <Header />
-      <Technologies />
-      <Education />
-      <Experience />
-      <Consent />
+      <div className="singlePage">
+        <Header />
+        <Technologies />
+        <Education />
+        <Experience />
+      </div>
+      <div className="singlePage">
+        <Experience2 />
+        <Consent />
+      </div>
     </div>
   );
 }

@@ -95,16 +95,19 @@ p {
 .singlePage {
   position: relative;
   width: 796px;
-  height: 1122px;
+  height: 1123px;
   padding: 20px 30px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   @include mobile {
     width: 100%;
     height: 100%;
     padding: 20px;
   }
+}
+
+.singlePage:last-of-type {
+  justify-content: space-between;
 }
 
 .consent {
@@ -116,4 +119,5 @@ p {
   text-align: justify;
   padding: 7px 0;
   border-top: 1px groove white;
+  margin-top: 40px;
 }

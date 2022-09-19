@@ -3,85 +3,81 @@
 @import "../styles/animations.scss";
 
 .technologiesContainer {
-    margin: 20px 0 0 90px;
-    visibility: hidden;
-    animation: fadeInRight 2s;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-    @include mobile {
-        margin: 20px 0 0 0;
-
-    }
+  margin: 20px 0 0 90px;
+  visibility: hidden;
+  animation: fadeInRight 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  @include mobile {
+    margin: 20px 0 0 0;
+  }
 }
 
 .technologiesList {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    @include mobile {
-        justify-content: space-between;
-    }
-
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  @include mobile {
+    justify-content: space-between;
+  }
 }
 
 .singleTechnology {
+  display: flex;
+  border-radius: 2px;
+  align-items: center;
+  padding: 7px 0;
+  margin-right: 20px;
+  width: 109px;
+  @include mobile {
+    width: 90px;
+  }
+
+  img {
+    width: 25px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+
+  .level {
     display: flex;
-    border-radius: 2px;
-    align-items: center;
-    padding: 7px 0;
-    margin-right: 20px;
-    width: 109px;
-    @include mobile {
-        width: 90px;
+    border: 1px ridge white;
+    box-shadow: 2px 2px 8px rgb(91, 182, 235);
+    position: relative;
+
+    h4 {
+      // text-shadow: -1px 1px 0 white,
+      //               1px 1px 0 white,
+      //              1px -1px 0 white,
+      //             -1px -1px 0 white;
+      //   top: 25%;
+      //   color: black;
+
+      background-color: $color-darkBlue;
+      color: white;
+      padding: 3px 1px;
+      top: 10%;
+      border-radius: 10%;
+
+      position: absolute;
+      left: 2px;
+
+      @include mobile {
+        font-size: 9px;
+      }
     }
 
-    img {
-        width: 25px;
-        object-fit: contain;
-        margin-right: 10px;
+    div {
+      height: 20px;
+      width: 27px;
+      background-color: transparent;
+      @include mobile {
+        width: 24px;
+      }
     }
 
-   
-
-    .level {
-        display: flex;
-        border: 1px ridge white;
-        box-shadow: 2px 2px 8px rgb(91, 182, 235);
-        position: relative;
-
-        h4 {
-            text-shadow: -1px 1px 0 white,
-                          1px 1px 0 white,
-                         1px -1px 0 white,
-                        -1px -1px 0 white;
-
-            // background-color: $color-darkBlue;
-            // color: white;
-            // padding: 3px 1px;
-            // top: 10%;
-            // border-radius: 10%;
-
-            position: absolute;           
-            left: 2px;
-            top: 25%;
-            color: black; 
-            @include mobile {
-                font-size: 9px;
-            }
-        }
-
-        div {
-            height: 20px;
-            width: 27px;
-            background-color: transparent;
-            @include mobile {
-                width: 24px;
-            }
-        }
-
-        .active {
-            background-color:white;
-        }
+    .active {
+      background-color: white;
     }
+  }
 }
-

@@ -32,13 +32,13 @@ export default function Technologies() {
         <SingleTechnology name="rwd" icon="technologies/rwd.png" level={3} />
         <SingleTechnology name="GIT" icon="technologies/git.png" level={3} />
         <SingleTechnology
-          name="Redux"
-          icon="technologies/redux.png"
+          name="TypeScript"
+          icon="technologies/ts.png"
           level={2}
         />
         <SingleTechnology
-          name="TypeScript"
-          icon="technologies/ts.png"
+          name="Redux"
+          icon="technologies/redux.png"
           level={2}
         />
         <SingleTechnology name="OOP" icon="technologies/oop.png" level={1} />
@@ -47,15 +47,12 @@ export default function Technologies() {
           icon="technologies/node.png"
           level={1}
         />
-        <SingleTechnology
-          name="Docker"
-          icon="technologies/docker.webp"
-          level={1}
-        />
+        <SingleTechnology name="Jest" icon="technologies/jest.png" level={1} />
+        <SingleTool name="react query" icon="technologies/react-query.svg" />
+        <SingleTool name="mantine" icon="technologies/mantine.svg" />
+        <SingleTool name="docker" icon="technologies/docker.webp" />
         <SingleTool name="rest" icon="technologies/rest.webp" />
         <SingleTool name="graph ql" icon="technologies/graphql.png" />
-        <SingleTool name="WP API" icon="technologies/wordpress.png" />
-        <SingleTool name="WC API" icon="technologies/woocommerce.png" />
         <SingleTool name="Firebase" icon="technologies/firebase.png" />
         <SingleTool name="scrum" icon="technologies/scrum.png" />
       </div>

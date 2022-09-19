@@ -2,85 +2,84 @@
 @import "../styles/animations.scss";
 
 .experienceContainer {
-    visibility: hidden;
-    animation: fadeInLeft 2s;
-    animation-fill-mode: forwards;
-    animation-delay: 3s;
+  visibility: hidden;
+  animation: fadeInLeft 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 
-    position: relative;
-    top: -40px;
-    @include mobile {
-        position: static;
-        margin-top: 20px;
-    }  
+  position: relative;
+  top: -30px;
+  @include mobile {
+    position: static;
+    margin-top: 20px;
+  }
 }
 
 .singleExperience {
-    margin-top: 10px;
+  margin-top: 10px;
+  @include mobile {
+    margin-bottom: 30px;
+  }
+  .datesRoleLinks {
+    display: flex;
+    align-items: center;
+
+    .dates {
+      width: 29%;
+    }
+
+    .role {
+      width: 61%;
+    }
+
+    .links {
+      visibility: hidden;
+      animation: fadeIn 2s;
+      animation-delay: 4s;
+      animation-fill-mode: forwards;
+
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 10%;
+      @include mobile {
+        width: 15%;
+      }
+
+      img {
+        width: 30px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .description {
+    margin-top: 5px;
+    text-align: justify;
+  }
+
+  .saxophoneTeacher {
+    margin-left: 214px;
+    margin-bottom: 7px;
     @include mobile {
-        margin-bottom:30px
+      margin-left: 28%;
     }
-    .datesRoleLinks {
-        display: flex;
-        align-items: center;
-
-        .dates {
-            width: 29%;
-        }
-
-        .role {
-            width: 61%;
-
-        }
-
-        .links {
-            visibility: hidden;
-            animation: fadeIn 2s;
-            animation-delay: 4s;
-            animation-fill-mode: forwards;
-
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            width: 10%;
-            @include mobile {
-                width: 15%;
-            }
-    
-            img {
-                width: 30px;
-                margin-right: 10px;
-            }
-        }
-    }
-
-    .description {
-        margin-top: 5px;
-        text-align: justify;
-    }
-
-    .saxophoneTeacher {
-        margin-left: 214px;
-        margin-bottom: 7px;
-        @include mobile {
-            margin-left: 28%;
-        }
-    }
+  }
 }
 
 .singleExperience:nth-of-type(3) {
-    margin-top: 2px;
-    @include mobile {
-        margin-top: 10px;
-    }
+  margin-top: 2px;
+  @include mobile {
+    margin-top: 10px;
+  }
 }
 
 .singleExperience:nth-of-type(4) {
-    margin-top: 5px;
-    h6 {
-        width: 61%;
-    }
-    @include mobile {
-        margin-top: 10px;
-    }
+  margin-top: 5px;
+  h6 {
+    width: 61%;
+  }
+  @include mobile {
+    margin-top: 10px;
+  }
 }

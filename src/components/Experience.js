@@ -6,6 +6,19 @@ export default function Experience() {
       <h3>Experience</h3>
       <div className="singleExperience">
         <div className="datesRoleLinks">
+          <p className="dates">Aug 2022 - present</p>
+          <h5 className="role">
+            React developer at Netizens / Apps.Clinic Sp. z o.o. (part time job)
+          </h5>
+          <div className="links">
+            <a href="https://www.netizens.pl/">
+              <img src="experience/netizens.svg" alt="netizens logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="singleExperience">
+        <div className="datesRoleLinks">
           <p className="dates">Apr 2022 - present</p>
           <h5 className="role">Web developer at Ukrainian Art Fundation</h5>
           <div className="links">

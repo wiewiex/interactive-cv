@@ -2,98 +2,96 @@
 @import "../styles/animations.scss";
 
 .educationContainer {
-    visibility: hidden;
-    animation: fadeInRight 2s;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
+  visibility: hidden;
+  animation: fadeInRight 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  margin-top: 20px;
 
-    margin-top: 15px;
-
-    h3 {
-        margin-bottom: 20px;
-    }
+  h3 {
+    margin-bottom: 20px;
+  }
 }
 
 .singleInstitution {
-    box-sizing: border-box;
-    display: flex;
-    margin-bottom: 15px;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 15px;
+  @include mobile {
+    flex-wrap: wrap;
+  }
+  .dates {
+    width: 30%;
     @include mobile {
-        flex-wrap: wrap;
+      width: 50%;
     }
-    .dates {
-        width: 30%;
-        @include mobile {
-            width: 50%;
-        }
-    }
+  }
 
-    .name {
-        width: 35%;
-        @include mobile {
-            width: 50%;
-        }
+  .name {
+    width: 35%;
+    @include mobile {
+      width: 50%;
     }
+  }
 
-    .description {
-        width: 40%;
-        @include mobile {
-            width: 100%;
-            margin-top: 5px;
-        }      
+  .description {
+    width: 40%;
+    @include mobile {
+      width: 100%;
+      margin-top: 5px;
     }
+  }
 }
 
 .codersLab {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  @include mobile {
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  .dates {
+    width: 30%;
+    @include mobile {
+      width: 50%;
+    }
+  }
+
+  .name {
+    width: 35%;
+    @include mobile {
+      width: 50%;
+    }
+  }
+
+  .description {
+    width: 40%;
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    justify-content: space-between;
+    font-size: 13px;
     @include mobile {
-        flex-wrap: wrap;
-        margin-bottom: 15px;
+      width: 100%;
+      justify-content: space-between;
     }
-    .dates {
-        width: 30%;
-        @include mobile {
-            width: 50%;
-        }
-    }
-
-    .name {
-        width: 35%;
-        @include mobile {
-            width: 50%;
-        }
-    }
-
-    .description {
-        width: 40%;
+    .linksContainer {
+      visibility: hidden;
+      animation: fadeIn 2s;
+      animation-delay: 3s;
+      animation-fill-mode: forwards;
+      display: flex;
+      .links {
+        margin-left: 5px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        font-size: 13px;
-        @include mobile {
-            width: 100%;
-            justify-content: space-between;
+
+        img {
+          width: 25px;
+          margin: 1px;
         }
-        .linksContainer {
-            visibility: hidden;
-            animation: fadeIn 2s;
-            animation-delay: 3s;
-            animation-fill-mode: forwards;
-            display: flex;
-            .links {
-                margin-left: 5px;
-                display: flex;
-                align-items: center;
-        
-                img {
-                    width: 25px;
-                    margin: 1px;
-                }
-            }        
-        }
-        
+      }
     }
+  }
 }

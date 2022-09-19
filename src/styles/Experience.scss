@@ -8,6 +8,10 @@
   animation-delay: 3s;
   position: relative;
   top: -20px;
+  @include mobile {
+    margin-top: 20px;
+    position: static;
+  }
 }
 
 .singleExperience {

@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <section className="experienceContainer">
       <h3>Experience</h3>
-      <div className="singleExperience">
+      {/* <div className="singleExperience">
         <div className="datesRoleLinks">
           <p className="dates">Aug 2022 - present</p>
           <h5 className="role">
@@ -16,7 +16,7 @@ export default function Experience() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="singleExperience">
         <div className="datesRoleLinks">
           <p className="dates">Apr 2022 - present</p>

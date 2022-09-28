@@ -109,7 +109,10 @@ p {
 .singlePage:last-of-type {
   justify-content: space-between;
   //web version
-  padding-top: 0;
+  top: -30px;
+  @include mobile {
+    top: -80px;
+  }
 }
 
 .consent {

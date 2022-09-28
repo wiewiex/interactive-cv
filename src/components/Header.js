@@ -43,8 +43,8 @@ export default function Header() {
             Since my early childhood I’ve been interested in computer
             technologies. I spent many long nights exploring operating systems,
             creating websites and modifying various software according to my own
-            needs. I am a very determined fast learner, experienced in creating
-            commercial projects from scratch.
+            needs. I am a very determined fast learner, experienced in
+            development and creating commercial projects from scratch.
           </p>
         </section>
       </div>

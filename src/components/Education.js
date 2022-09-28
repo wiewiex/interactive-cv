@@ -15,17 +15,17 @@ export default function Education() {
               <a href="https://portfolio-lab-project-wiewiex.vercel.app">
                 <img src="experience/vercel.png" alt="vercel logo" />
               </a>
-              <a href="https://github.com/wiewiex/portfolio-lab-project">
+              {/* <a href="https://github.com/wiewiex/portfolio-lab-project">
                 <img src="experience/github.png" alt="github logo" />
-              </a>
+              </a> */}
             </div>
             <div className="links">
               <a href="https://ciekawsze-zadania.vercel.app">
                 <img src="experience/vercel.png" alt="vercel logo" />
               </a>
-              <a href="https://github.com/wiewiex/ciekawsze-zadania">
+              {/* <a href="https://github.com/wiewiex/ciekawsze-zadania">
                 <img src="experience/github.png" alt="github logo" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

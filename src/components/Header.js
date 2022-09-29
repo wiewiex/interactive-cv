@@ -44,7 +44,7 @@ export default function Header() {
             technologies. I spent many long nights exploring operating systems,
             creating websites and modifying various software according to my own
             needs. I am a very determined fast learner, experienced in
-            development and creating commercial projects from scratch.
+            development and creating commercial web apps.
           </p>
         </section>
       </div>

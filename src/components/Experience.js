@@ -33,14 +33,10 @@ export default function Experience() {
         </div>
         <p className="description">
           On request of the charity foundation helping the Ukrainian artists
-          during the war, I created a website based on React in Next.js. I got
-          very involved in this project and developed a lot being able to
-          incorporate possibilities that Next.js offers, together with Wordpress
-          as Headless CMS. Problems that I encountered made me explore new
-          solutions and implement improvements. I learned the integration with
-          various API, deployment in GitHub Actions. What’s more, I created my
-          first container in Docker and learned how to search StackOverflow more
-          efficiently.
+          during the war, I created a fully functional auction website based on
+          React. I got very involved in this project and developed a lot being
+          able to incorporate possibilities that Next.js offers, together with
+          Wordpress as Headless CMS.
         </p>
       </div>
       <div className="singleExperience">

@@ -48,6 +48,7 @@ export default function Technologies() {
           level={1}
         />
         <SingleTechnology name="Jest" icon="technologies/jest.png" level={1} />
+        <SingleTool name="express" icon="technologies/express.png" />
         <SingleTool name="react query" icon="technologies/react-query.svg" />
         <SingleTool name="mantine" icon="technologies/mantine.svg" />
         <SingleTool name="docker" icon="technologies/docker.webp" />

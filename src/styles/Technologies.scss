@@ -44,21 +44,21 @@
     border: 1px ridge white;
     position: relative;
     //website
-    // box-shadow: 2px 2px 8px rgb(91, 182, 235);
+    box-shadow: 2px 2px 8px rgb(91, 182, 235);
 
     h4 {
       //website
-      // text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white,
-      //   -1px -1px 0 white;
-      // top: 25%;
-      // color: black;
+      text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white,
+        -1px -1px 0 white;
+      top: 25%;
+      color: black;
 
       //pdf
-      background-color: $color-darkBlue;
-      color: white;
-      padding: 3px 1px;
-      top: 10%;
-      border-radius: 10%;
+      // background-color: $color-darkBlue;
+      // color: white;
+      // padding: 3px 1px;
+      // top: 10%;
+      // border-radius: 10%;
 
       position: absolute;
       left: 2px;

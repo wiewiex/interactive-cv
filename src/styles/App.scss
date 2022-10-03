@@ -91,16 +91,18 @@ p {
   background-color: $color-darkBlue;
   box-sizing: border-box;
   //website version
-  // padding: 10px 0;
+  padding: 10px 0;
 }
 
 .singlePage {
   position: relative;
   width: 796px;
-  height: 1123px;
+
   padding: 20px 30px;
   display: flex;
   flex-direction: column;
+  //pdf
+  // height: 1123px;
   @include mobile {
     width: 100%;
     height: 100%;
@@ -109,20 +111,20 @@ p {
 }
 
 //website
-// .singlePage:first-of-type {
-//   padding-bottom: 0;
-//   margin-bottom: 0;
-// }
+.singlePage:first-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
-// .singlePage:last-of-type {
-//   padding-top: 0;
-//   margin-top: 0;
-// }
+.singlePage:last-of-type {
+  padding-top: 0;
+  margin-top: 0;
+}
 
 //pdf
-.singlePage:last-of-type {
-  justify-content: space-between;
-}
+// .singlePage:last-of-type {
+//   justify-content: space-between;
+// }
 
 .consent {
   visibility: hidden;

@@ -8,8 +8,7 @@ export default function Experience() {
         <div className="datesRoleLinks">
           <p className="dates">Aug 2022 - present</p>
           <h5 className="role">
-            React developer at Netizens / Apps.Clinic Sp. z o.o.
-            {/* (part time job) */}
+            React developer at Netizens / Apps.Clinic Sp. z o.o. (part time job)
           </h5>
           <div className="links">
             <a href="https://www.netizens.pl/">
@@ -26,9 +25,9 @@ export default function Experience() {
             <a href="https://uaworld.pl">
               <img src="experience/uaworld.png" alt="uaart logo" />
             </a>
-            {/* <a href="https://github.com/wiewiex/uaworld.pl-review">
+            <a href="https://github.com/wiewiex/uaworld.pl-review">
               <img src="experience/github.png" alt="github logo" />
-            </a> */}
+            </a>
           </div>
         </div>
         <p className="description">

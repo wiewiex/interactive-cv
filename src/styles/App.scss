@@ -91,7 +91,7 @@ p {
   background-color: $color-darkBlue;
   box-sizing: border-box;
   //website version
-  padding: 10px 0;
+  // padding: 10px 0;
 }
 
 .singlePage {
@@ -111,15 +111,15 @@ p {
 }
 
 //website
-.singlePage:first-of-type {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
+// .singlePage:first-of-type {
+//   padding-bottom: 0;
+//   margin-bottom: 0;
+// }
 
-.singlePage:last-of-type {
-  padding-top: 0;
-  margin-top: 0;
-}
+// .singlePage:last-of-type {
+//   padding-top: 0;
+//   margin-top: 0;
+// }
 
 //pdf
 .singlePage:last-of-type {

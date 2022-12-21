@@ -13,6 +13,11 @@ export default function Technologies() {
           level={3}
         />
         <SingleTechnology
+          name="React Native"
+          icon="technologies/react-native.svg"
+          level={3}
+        />
+        <SingleTechnology
           name="JavaScript"
           icon="technologies/js.png"
           level={3}
@@ -34,12 +39,12 @@ export default function Technologies() {
         <SingleTechnology
           name="TypeScript"
           icon="technologies/ts.png"
-          level={2}
+          level={3}
         />
         <SingleTechnology
-          name="Redux"
+          name="Redux Toolkit"
           icon="technologies/redux.png"
-          level={2}
+          level={3}
         />
         <SingleTechnology name="OOP" icon="technologies/oop.png" level={1} />
         <SingleTechnology
@@ -53,7 +58,7 @@ export default function Technologies() {
           icon="technologies/threejs.png"
           level={1}
         />
-        <SingleTool name="express" icon="technologies/express.png" />
+        {/* <SingleTool name="express" icon="technologies/express.png" /> */}
         <SingleTool name="react query" icon="technologies/react-query.svg" />
         <SingleTool name="mantine" icon="technologies/mantine.svg" />
         <SingleTool name="docker" icon="technologies/docker.webp" />
